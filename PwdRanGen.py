@@ -9,7 +9,7 @@ print('''
 #  (_____ (  / _  ||  _ \ |  ____/ | | | | / || || | (___) / _  )|  _ \ 
 #        | |( ( | || | | || |      | | | |( (_| || \____/|( (/ / | | | |
 #        |_| \_||_||_| |_||_|       \____| \____| \_____/  \____)|_| |_|
-#                                                                       
+# https://github.com/reivaxtech/RanPwdGen                                                                  
 ''')
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+[]:"'
