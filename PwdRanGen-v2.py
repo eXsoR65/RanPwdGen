@@ -19,15 +19,15 @@ https://github.com/eXsoR65/RanPwdGen
 '''
 )
 # input the length of password
-print('(note: Maximum Length is 94)')
+print('(Maximum possible character length: 94)')
 length = int(
     input('Enter the length of password: '))
 
 # genarate a password
-all = string.ascii_letters + string.digits + string.punctuation
+genarate = string.ascii_letters + string.digits + string.punctuation
 
 # create the password
-passwd = "".join(random.sample(all, length))
+passwd = "".join(random.sample(genarate, length))
 
 # prints the password
 print()  # space
