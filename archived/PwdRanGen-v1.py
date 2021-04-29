@@ -9,7 +9,7 @@ print('''
 #  (_____ (  / _  ||  _ \ |  ____/ | | | | / || || | (___) / _  )|  _ \ 
 #        | |( ( | || | | || |      | | | |( (_| || \____/|( (/ / | | | |
 #        |_| \_||_||_| |_||_|       \____| \____| \_____/  \____)|_| |_| - v1
-# https://github.com/reivaxtech/RanPwdGen                                                                  
+# https://github.com/eXsoR65/RanPwdGen                                                                  
 ''')
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+[]:"'
@@ -23,8 +23,8 @@ length = int(length)
 print('\nGenerated Passwords:')
 
 for pwd in range(number):
-  password = ''
-  for c in range(length):
-    password += random.choice(chars)
-  print(password)
+    password = ''
+    for c in range(length):
+        password += random.choice(chars)
+    print(password)
 print('--End of password list--')
